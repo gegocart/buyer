@@ -1,0 +1,12 @@
+.category-heading {
+	@apply .my-2 .text-xl .text-grey-darkest .no-underline .cursor-pointer .font-bold
+}
+.category-item {
+	@apply .my-2 .text-grey-darkest .no-underline .cursor-pointer .font-thin
+}
+.category-heading:visited {
+	@apply .no-underline
+}
+.category-item:hover {
+	@apply .font-bold
+}

@@ -1,0 +1,12 @@
+.member-menu-bg {
+	@apply .bg-grey-lighter
+}
+.member-menu-heading {
+	@apply .text-base .text-grey-darker .mt-1 .mb-2 .font-bold
+}
+.member-menu-item {
+	@apply .text-base .text-grey-darker .my-2 .ml-2 .font-thin .no-underline
+}
+.member-menu-seperator {
+	@apply .my-2 .border-b .border-grey-light .pb-2
+}

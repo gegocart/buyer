@@ -1,0 +1,22 @@
+.navbar {
+	@apply .bg-white .shadow .my-0
+}
+.navbar-item {
+	@apply .mx-2 .text-grey-darkest .no-underline 
+}
+.navbar-item-button {
+	@apply .px-2 .py-1 .rounded .text-grey-darkest .no-underline .border .border-grey-darkest
+}
+.navbar-item-button:hover {
+	@apply .text-white .bg-grey-darkest 
+}
+.sub-menu {
+	@apply .p-1 .bg-black
+}
+.sub-menu-item {
+	@apply .py-2 .text-white .no-underline .text-sm .tracking-wide
+}
+.sub-menu-item:hover
+{
+	@apply  .font-semibold
+}

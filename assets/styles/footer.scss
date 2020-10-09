@@ -1,0 +1,9 @@
+.footer {
+	@apply .pt-4 .pb-16 .bg-grey-light
+}
+.footer-link {
+	@apply .mx-4 .p-2 .opacity-75 .bg-transparent .rounded .text-grey-dark .no-underline .cursor-pointer
+}
+.footer-link:hover {
+	@apply .block .opacity-100 
+}
